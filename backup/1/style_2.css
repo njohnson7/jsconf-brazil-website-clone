@@ -1,0 +1,182 @@
+@import url('whitespace_reset.css');
+
+.hide { display: none; }
+
+html { font-size: 62.5%; }
+
+body {
+  color: #444;
+  font: 1.6rem 'Open Sans', 'Noto Sans', Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #33b5e5;
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 4.8rem;
+}
+
+.row {
+  max-width: 960px;
+  margin: 5.8rem auto;
+  text-align: center;
+}
+
+.divider {
+  background: #efefef;
+  background: blue;
+  margin: 0 3rem;
+  height: .1rem;
+}
+
+.navbar {
+  background: #fff;
+  border-top: 1rem solid #f5f5f5;
+  border-bottom: .1rem solid #eee;
+  height: 5.5rem;
+  position: fixed;
+  padding: 1rem;
+  top: 0;
+  text-align: center;
+  width: 100%;
+}
+.navbar li {
+  display: inline-block;
+  padding: 0px 2.45rem;
+}
+
+.navbar a {
+  color: #444;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.navbar a:hover, .navbar a:focus {
+  text-decoration: underline;
+}
+
+/* 1570*428 */
+.header {
+  background: transparent url('images/front.jpg') center 0 no-repeat;
+  margin: 5.5rem auto 0;
+  padding: 15rem 0 5.4rem 0;
+  text-align: center;
+}
+.header img {
+  display: inline-block;
+  margin-bottom: -0.1rem;
+  width: 80px;
+}
+h1 {
+  color: #fff;
+  font-size: 7.2rem;
+}
+.header p {
+  color: #fff;
+  font-size: 3.1rem;
+  text-transform: uppercase;
+}
+
+#tickets {
+  margin: 5.9rem auto 7rem;
+  text-align: center;
+}
+#tickets p:first-of-type {
+  font-weight: 100;
+  margin-top: 3.1rem;
+}
+
+a.btn {
+  background: #008000;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  height: 4.2rem;
+  line-height: 4.2rem;
+  margin-top: 1rem;
+  padding: 0 3rem;
+}
+a.btn:hover {
+  background: #006000;
+}
+
+#speakers {
+  /*margin-top: 5.8rem;*/
+}
+#speakers ul {
+  font-size: 0;
+  margin-top: 3.1rem;
+}
+#speakers li {
+  border: .1rem solid blue;
+  display: inline-block;
+  /*font-size: 1.6rem;*/
+  height: 380px;
+  /* margin-right: 0.5rem; */
+  /*margin: 0 0.7rem 0.8rem;*/
+  margin: 0.5rem 0.7rem;
+  width: 280px;
+  vertical-align: top;
+}
+#speakers li:nth-of-type(3) {
+  /*margin-right: 0;*/
+}
+#speakers figure {
+  /*height: 380px;*/
+  /*width: 280px;*/
+}
+#speakers figcaption {
+  margin-top: 3.5rem;
+}
+#speakers h3 a {
+  color: #008000;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+#speakers img {
+  width: 100%;
+}
+#speakers p {
+  font-size: 1.6rem;
+  font-weight: 100;
+  line-height: 2.4rem;
+  margin-top: 0.6rem;
+  padding: 0 1.1rem;
+  /*height: 66px;*/
+}
+
+#schedule {
+  /* margin-top: 11.8rem; */
+}
+
+
+
+/*
+
+green: #008000
+border below tickets, and in table: #efefef;
+#e8e8e8 : border around speaker images
+# trams;icemt bprder
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*fix....*/
+.map img {
+  max-width: 500px
+}
