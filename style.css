@@ -131,7 +131,7 @@ a.btn:hover {
   font-weight: 100;
   line-height: 2.4rem;
   margin-top: 0.6rem;
-  padding: 0 1.1rem;
+  padding: 0 1rem;
 }
 
 table {
@@ -162,14 +162,15 @@ table img {
   border: .1rem solid #aaa;
   display: inline-block;
   font-size: 0.7rem;
-  height: 1.3rem;
-  line-height: 1.3rem;
-  margin: 0 0.15rem;
-  padding: 0 0.2rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  margin: 0px 0.2rem;
+  padding: 0 0.4rem;
+  text-align: center;
   vertical-align: 0.6rem;
 }
 .tag:first-of-type {
-  margin-left: 1rem;
+  margin-left: 0.6rem;
 }
 
 #location {
@@ -209,9 +210,15 @@ h5 {
 #callforpapers p ~ p {
   margin-top: 1.2rem;
 }
+#callforpapers .btn {
+  margin-top: -0.4rem;
+}
 
 #sponsors {
   text-align: left;
+}
+#sponsors h2 {
+  text-align: center;
 }
 #sponsors div {
   margin-top: 2.8rem;
